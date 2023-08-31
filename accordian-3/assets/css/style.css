@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-yellow {
+    background-color: #F6E300;
+}
+
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.acc-head-1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.pt-26 {
+    padding-top: 26px;
+}
+
+.pt-43 {
+    padding-top: 43px;
+}
+
+
+.acc-box {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 31px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.accordian {
+    background-color: #FFF03F;
+    border: 1px solid #FFF03F;
+    min-width: 922px;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    min-width: 866px;
+    opacity: 0.7;
+    display: none;
+}
+
+.accordian.active .para {
+    display: block;
+   padding-left: 31px;
+   padding-top: 20px;
+   padding-bottom: 19px;
+
+ 
+}
+
+/* .mt-20 {
+    margin-top: 20px;
+} */
+
+.arrow {
+    rotate: 180deg;
+    transition: all 300ms linear;
+}
+
+.active .arrow {
+    rotate: 360deg;
+
+}
+
+   
+.bg-black {
+    background-color: #0C0B0B;
+   
+}
+
+.acc-head-2 {
+    color: #FFF;
+    text-align: center;
+
+    /* Heading */
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128%;
+}
+
+.acc-box-2 {
+    color: var(--white, #FFF);
+
+    /* Body-L, Semibold */
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 33px */
+    min-width: 449px;
+}
+
+
+.accordian-2 {
+    background-color: #131212;
+    /* min-width: 1320px; */
+    padding: 16px;
+    border: 1px solid;
+    opacity: .7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    min-width: 900px;
+    margin-left: -50px;
+   
+}
+
+.para-2 {
+    color: white;
+ 
+    /* Body */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    display: none;
+    min-width: 1200px;
+   
+}
+
+.accordian-2.active .para-2 {
+    display: block;
+   
+    /* min-width: 1320px;
+    margin-left: -30px; */
+    /* height: 142px; */
+    border-radius: 5px;
+    /* border: 1px solid var(--blue, #128DFF); */
+}
+.bg-blue{
+    background-color:#000A1A;
+}
+.acc-color{
+    background-color:  #031227;
+    min-width: 830px;
+    padding: 30px 20px ;
+    border: none;
+    border-radius: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.accordian-3 {
+    background-color:transparent;
+    cursor: pointer;
+   
+}
+
+.acc-head-3 {
+    color: #FFF;
+    text-align: center;
+
+    /* Heading */
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128%;
+
+}
+.mt-6{
+    margin-top: -6px;
+}
+.acc-box-3 {
+    color: #FFF;
+font-family: 'Montserrat',sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.para-3 {
+    color: white;
+    /* Body */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    /* 32.4px */
+    display: none;
+    padding: 0px 32px;
+
+}
+
+.accordian-3.active .para-3 {
+    display: block;
+    min-width: 800px;
+    /* border: 1px solid var(--blue, #128DFF); */
+}
+
+
+.accordian-2.active2 .para-2 {
+    display: block;
+   
+    /* height: 142px; */
+
+    /* border: 1px solid var(--blue, #128DFF); */
+}
+.accordian-3.active3 .para-3 {
+    display: block;
+    min-width: 800px;
+    /* border: 1px solid var(--blue, #128DFF); */
+}
